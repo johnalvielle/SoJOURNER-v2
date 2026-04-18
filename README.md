@@ -153,6 +153,39 @@ footer{
   h2{font-size:1.5rem !important;}
   #feature h2{font-size:1.7rem !important;}
 }
+.site-header{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  padding:1.2rem 1rem;
+  border-bottom:3px solid var(--accent);
+}
+
+.logo-wrap img{
+  height:65px;
+  width:auto;
+}
+
+.title-wrap{
+  display:flex;
+  flex-direction:column;
+  line-height:1.1;
+}
+
+.title-wrap h1{
+  font-family:Merriweather;
+  font-size:1.9rem;
+  letter-spacing:2px;
+  color:var(--primary);
+}
+
+.subtitle{
+  font-size:0.75rem;
+  letter-spacing:4px;
+  color:var(--accent);
+  font-weight:700;
+}
 
 </style>
 </head>
@@ -160,10 +193,17 @@ footer{
 <body>
 
 <!-- HEADER -->
-<header>
-  <img src="Sojourne.jpeg" alt="Sojourner Logo">
-  <h1>Sojourner NEWS</h1>
+<header class="site-header">
+  <div class="logo-wrap">
+    <img src="Sojourne.jpeg" alt="Sojourner Logo">
+  </div>
+
+  <div class="title-wrap">
+    <h1>SOJOURNER</h1>
+    <span class="subtitle">NEWSROOM</span>
+  </div>
 </header>
+
 
 <!-- NAV -->
 <nav>
