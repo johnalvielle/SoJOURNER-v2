@@ -123,7 +123,7 @@ footer{
 
 <!-- HEADER -->
 <header>
-  <img src="sojourne.jpeg" alt="Sojourner Logo">
+  <img src="Sojourne.jpeg" alt="Sojourner Logo">
   <h1>Sojourner NEWS</h1>
 </header>
 
