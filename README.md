@@ -124,7 +124,7 @@ footer{
 <!-- HEADER -->
 <header>
   <img src="sojourne.jpeg" alt="Sojourner Logo">
-  <h1>SOJOURNER NEWS</h1>
+  <h1>Sojourner NEWS</h1>
 </header>
 
 <!-- NAV -->
