@@ -144,7 +144,7 @@ footer{
 <h2>Under the Blazing Sun: Robin's fight for Survival and Dreams</h2>
 <div class="meta">By Sojourner News</div>
 
-<img class="article-img" src="OPINION WRITING.jpeg" alt="Robin Story Image">
+<img class="article-img" src="FEATURED ARTICLE.jpeg" alt="Robin Story Image">
 
 <p>
 Robin, a street vendor in stands beside his source of livelihood; a pushcart that sells pineapple juice along the streets of Malolos, Bulacan.
@@ -177,7 +177,7 @@ Robin's daily struggle is a story of resilience, hardships, sacrifices and unspo
 <h2>Resilience shall never be the key</h2>
 <div class="meta">Sojourner Editorial</div>
 
-<img class="article-img" src="FEATURED WRITING.jpeg" alt="Flood Protest Image">
+<img class="article-img" src="OPINION WRITING.jpeg" alt="Flood Protest Image">
 
 <p>
 Residents of Hagonoy, Bulacan wade through flood waters as 
