@@ -5,14 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Sojourner News</title>
 
-<!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet"/>
 
 <style>
 :root{
   --primary:#252958;
   --accent:#E2841C;
-  --text:#1a1a1a;
   --grey:#666;
   --border:#e2e5ef;
 }
@@ -22,7 +20,7 @@
 body{
   font-family:Inter,sans-serif;
   background:#fff;
-  color:var(--text);
+  color:#1a1a1a;
   line-height:1.8;
 }
 
@@ -42,7 +40,6 @@ header img{
 header h1{
   font-family:Merriweather;
   color:var(--primary);
-  font-size:1.8rem;
 }
 
 nav{
@@ -93,10 +90,11 @@ h2{
   margin-bottom:1rem;
 }
 
-img{
+img.article-img{
   width:100%;
-  border-radius:8px;
+  border-radius:10px;
   margin:1rem 0;
+  object-fit:cover;
 }
 
 p{
@@ -123,13 +121,13 @@ footer{
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<!-- HEADER -->
 <header>
   <img src="sojourne.jpeg" alt="Sojourner Logo">
   <h1>SOJOURNER NEWS</h1>
 </header>
 
-<!-- ================= NAV ================= -->
+<!-- NAV -->
 <nav>
   <a href="#feature">Feature</a>
   <a href="#opinion">Opinion</a>
@@ -139,14 +137,14 @@ footer{
 
 <div class="container">
 
-<!-- ================= FEATURE ARTICLE ================= -->
+<!-- ================= FEATURE ================= -->
 <section class="article" id="feature">
 
 <div class="tag">Feature Article</div>
-
 <h2>Under the Blazing Sun: Robin's fight for Survival and Dreams</h2>
-
 <div class="meta">By Sojourner News</div>
+
+<img class="article-img" src="robin.jpg" alt="Robin Story Image">
 
 <p>
 Robin, a street vendor in stands beside his source of livelihood; a pushcart that sells pineapple juice along the streets of Malolos, Bulacan.
@@ -176,16 +174,16 @@ Robin's daily struggle is a story of resilience, hardships, sacrifices and unspo
 <section class="article" id="opinion">
 
 <div class="tag">Opinion Writing</div>
-
 <h2>Resilience shall never be the key</h2>
-
 <div class="meta">Sojourner Editorial</div>
+
+<img class="article-img" src="hagonoy.jpg" alt="Flood Protest Image">
 
 <p>
 Residents of Hagonoy, Bulacan wade through flood waters as 
 “Tindig Hagonoy” protests occurs.
 
- When problem calls, resilience is not the answer 
+When problem calls, resilience is not the answer 
 
 Resilience is what people hold on to when things get tough. It keeps them to endure, to survive. Yet, in places in the province of Bulacan, resilience begins to feel less like strength and more like a nightmare dressed as concealed strength.
 
@@ -235,10 +233,10 @@ Because at some point, the real question is no longer how long people can endure
 <section class="article" id="breaking1">
 
 <div class="tag">Breaking News</div>
-
 <h2>Heat Index in Bulacan hits Danger Zone; Jeepney Driver endure long trips for family</h2>
-
 <div class="meta">Writer: Micaela Cruz</div>
+
+<img class="article-img" src="jeepney.jpg" alt="Jeepney Driver Heat">
 
 <p>
 MALOLOS BULACAN–The heat index in Bulacan has officially reached the "Danger Zone" level on Saturday, April 18, 2026.
@@ -260,10 +258,10 @@ Truly, the sacrifices of our drivers are evident. They beat the heat and overcom
 <section class="article" id="breaking2">
 
 <div class="tag">Breaking News</div>
-
 <h2>BulSU students, loses focus to studies due to heat index</h2>
-
 <div class="meta">writer: MILLIE BORDAJE</div>
+
+<img class="article-img" src="bulsu.jpg" alt="BulSU Heat Image">
 
 <p>
 Several students from BulSU are experiencing extreme heat inside and external campus the university.
@@ -289,7 +287,6 @@ The heat index not only affects students' focus on studies, but it also poses a 
 
 </div>
 
-<!-- ================= FOOTER ================= -->
 <footer>
   <p>© 2026 SOJOURNER NEWS</p>
 </footer>
